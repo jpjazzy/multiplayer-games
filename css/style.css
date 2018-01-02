@@ -1,0 +1,67 @@
+/* APP STYLES */
+
+/******************** COLOR SCHEME *****************
+* Primary Color: #0014B2 (DARK BLUE)
+* Secondary Color: #FFCC19 (YELLOW)
+* Tertiary Color: #001CFF (LIGHTER BLUE)
+******************** COLOR SCHEME *****************/
+
+
+/********************* ELEMENT TARGETTING *******************/
+body {
+  background: radial-gradient(#0014B2, #000);
+}
+
+header nav {
+  background: #CCC;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  margin: 5px;
+}
+
+header nav * {
+  display: inline-block;
+  padding: 1px 5px 1px 5px;
+}
+
+nav ol li {
+  font-size: 20px;
+  border-right: 1px solid #AAA;
+}
+
+nav ol li a {
+  color: #494949;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ol li a:hover {
+  color: #000;
+  text-shadow: 1px;
+}
+
+header nav form input[type="text"]{
+  border-radius: 3px;
+  background: #000;
+  color: #FFF;
+  border: none;
+  padding: 5px;
+}
+
+header nav form button{
+  border-radius: 3px;
+  background: #000;
+  color: #FFF;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+}
+
+header nav form label {
+  padding: 0;
+}
+
+/********************* CLASS TARGETTING *******************/
+
+/********************* ID TARGETTING *******************/
